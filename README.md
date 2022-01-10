@@ -6,6 +6,11 @@
 * PostgreSQL
 * Rails 6
 
+- Cálculo do imc com o valor do resultado, a classificação e o grau de obesidade.
+
+![ScreenShot](https://github.com/beto-machado/RH-Software---Teste/blob/master/app/img/calculo_imc.png)
+
+
 ## Para executar o projeto:
 
 ### Clone em sua máquina
