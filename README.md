@@ -1,24 +1,30 @@
-# README
+# API IMC
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Requisitos Necessários:
 
-Things you may want to cover:
+* Ruby 3.0.2
+* PostgreSQL
+* Rails 6
 
-* Ruby version
+## Para executar o projeto:
 
-* System dependencies
+### Clone em sua máquina
 
-* Configuration
+```shell
+git clone https://github.com/beto-machado/RH-Software---Teste.git
+```
 
-* Database creation
+### Instale as dependências
+```shell
+bundle install
+```
 
-* Database initialization
+### Crie o Banco de Dados
+```shell
+rails db:create
+rails db:migrate
+```
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Execute a aplicação
+```shell
+rails s
