@@ -16,7 +16,7 @@
 ### Clone em sua máquina
 
 ```shell
-git clone https://github.com/beto-machado/RH-Software---Teste.git
+git clone git@github.com:beto-machado/Api-IMC.git
 ```
 
 ### Instale as dependências
