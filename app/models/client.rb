@@ -2,6 +2,8 @@ class Client < ApplicationRecord
   has_one :imc, dependent: :destroy
   before_save :calculate_imc
 
+  validates :name, presence: true
+
   private
 
   def calculate_imc

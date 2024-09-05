@@ -1,6 +1,10 @@
 require 'rails_helper'
 
 RSpec.describe Imc, type: :model do
+  describe 'Associations' do
+    it { is_expected.to belong_to(:client) }
+  end
+
   describe '.classify' do
     it 'returns "Low weight" for IMC <= 18.5' do
       result = Imc.classify(18.5)
