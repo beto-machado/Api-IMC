@@ -46,9 +46,13 @@ Este projeto é de uma api para calcular o imc de clientes.
 
 ## 📝 Uso
 
-1. - Cálculo do imc com o valor do resultado, a classificação e o grau de obesidade.
+1. - POST /api/clients
 
-![ScreenShot](https://github.com/beto-machado/RH-Software---Teste/blob/master/app/img/calculo_imc.png)
+![ScreenShot](https://github.com/beto-machado/Api-IMC/blob/master/app/img/index.png)
+
+2. - GET /api/clients
+   
+![ScreenShot](https://github.com/beto-machado/Api-IMC/blob/master/app/img/show.png)
 
 ## ✅ Testes
 
